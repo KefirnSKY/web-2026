@@ -64,7 +64,7 @@ if ($dateString !== null) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Знак зодиака</title>
+    <title>task3</title>
     <style>
         .error {
             color: red;
