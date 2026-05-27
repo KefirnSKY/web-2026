@@ -54,7 +54,7 @@ if ($start !== null && $end !== null) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Счастливые билеты</title>
+    <title>task4</title>
     <style>
 
         .error {
