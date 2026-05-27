@@ -62,25 +62,19 @@ if ($digitString !== null) {
         .error {
             color: red;
         }
-
         input[type=number] {
             padding: 5px;
             margin: 5px 0;
         }
-
         button {
             padding: 5px 15px;
             cursor: pointer;
         }
     </style>
 </head>
-
 <body>
-
 <form method="post">
-
     <label for="digit">Введите цифру:</label>
-
     <input
         type="number"
         name="digit"
@@ -89,24 +83,16 @@ if ($digitString !== null) {
         max="9"
         required
     >
-
     <button type="submit">Перевести</button>
-
 </form>
-
 <?php if ($error !== null): ?>
-
     <p class="error">
         Ошибка: <?php echo $error; ?>
     </p>
-
 <?php elseif ($result !== null): ?>
-
     <p>
         Результат: <?php echo $result; ?>
     </p>
-
 <?php endif; ?>
-
 </body>
 </html>
